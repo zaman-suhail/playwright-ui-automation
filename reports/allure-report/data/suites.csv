@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3722","Login Test","","Sun Sep 07 18:04:23 PKT 2025","passed","Sun Sep 07 18:04:26 PKT 2025","","auth/login.spec.js","",""

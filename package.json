@@ -1,0 +1,26 @@
+{
+  "name": "playwright-ui-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:qa": "TEST_ENV=qa npm run test",
+    "test:preprod": "TEST_ENV=preprod npm run test",
+    "test:prod": "TEST_ENV=prod npm run test",
+    "report": "npx allure generate reports/allure-results --clean -o reports/allure-report && npx allure open reports/allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "allure-playwright": "^3.3.3",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "winston": "^3.17.0"
+  }
+}
